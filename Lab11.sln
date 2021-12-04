@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31829.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab11", "Lab11\Lab11.csproj", "{8D94183F-60C5-44CF-838E-C5C3844532BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructEqu", "StructEqu\StructEqu.csproj", "{BF71B034-3C7D-448E-9E33-057CB5972B94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D94183F-60C5-44CF-838E-C5C3844532BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D94183F-60C5-44CF-838E-C5C3844532BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D94183F-60C5-44CF-838E-C5C3844532BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D94183F-60C5-44CF-838E-C5C3844532BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF71B034-3C7D-448E-9E33-057CB5972B94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF71B034-3C7D-448E-9E33-057CB5972B94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF71B034-3C7D-448E-9E33-057CB5972B94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF71B034-3C7D-448E-9E33-057CB5972B94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14AEE18A-F94A-41C5-BFE6-47F92EBB3D95}
+	EndGlobalSection
+EndGlobal
