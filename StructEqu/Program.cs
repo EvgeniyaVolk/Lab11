@@ -10,35 +10,26 @@ namespace StructEqu
     {
         static void Main(string[] args)
         {
-            Equ equ = new Equ();
-            Console.WriteLine(equ.root);
+           
+            Console.WriteLine("Программа решения уравнения с одной переменной.\n\n Введите значение k и b в уравнение типа 0=х*k+b");
+            Console.Write("k- ");
+            double k = Convert.ToDouble(Console.ReadLine());
+            Console.Write("\nb- ");
+            double b = Convert.ToDouble(Console.ReadLine());
+            Equ equ = new Equ { k = k, b = b };
+            equ.Root();
             Console.ReadKey();
 
         }
         struct Equ
         {
-            public float k;
-            public float b;
-            public float x;
-            public float root;
-          
-            public void Root(float K, float B, float X, float F)
+            public double k;
+            public double b;
+           
+            public void Root()
             {
-                this.x = X;
-                this.k = K = 10;
-                this.b = B = 6;
-                F = 0;
-
-                F = K * X + B;
-                if (K != 0)
-                {
-                    X = (F - B) / K;
-                }
-                else
-                {
-                    Console.WriteLine("Ошибка! Деление на ноль");
-                }
-                root = X;
+                double x = -b / k;
+                Console.WriteLine("\nx равняется {0}", x);
             }
             
 
